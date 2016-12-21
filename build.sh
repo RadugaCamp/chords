@@ -3,6 +3,7 @@
 # here I use open access DejaVuSans.ttf
 chordpro --print-default-config > mycfg.json
 sed -i -- 's/"name" : "Times-Roman"/"file" : "DejaVuSans.ttf"/g' mycfg.json
+sed -i -- 's/"name" : "Times-Bold"/"file" : "DejaVuSans.ttf"/g' mycfg.json
 
 mkdir pdf
 
