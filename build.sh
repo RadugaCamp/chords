@@ -20,6 +20,7 @@ git clone -b gh-pages https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git cho
 cd chords
 rm -rf *
 cp -r ../pdf .
+cp ../mycfg.json .
 
 git add pdf
 git commit -m "build chord pdfs"
