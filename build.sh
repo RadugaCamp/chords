@@ -15,6 +15,11 @@ done
 git config --global user.email "vladimir.yu.kiselev@gmail.com"
 git config --global user.name "wikiselev"
 
+git clone https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git chords
+
+cd chords
+cp -r ../pdf .
+
 git add pdf
 git commit -m "build chord pdfs"
 git push origin
