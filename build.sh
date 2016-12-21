@@ -7,10 +7,10 @@ sed -i -- 's/"name" : "Times-Bold"/"file" : "DejaVuSans.ttf"/g' mycfg.json
 
 mkdir pdf
 
-chordpro --cfg mycfg.json --o pdf/all_songs.pdf \
-    cho/victor-tsoy-peremen.cho \
-    cho/victor-tsoy-peremen1.cho
+# run chordpro on .cho files in the cho directory
+sh chordpro.sh
 
+# push to gh-pages on github
 git config --global user.email "vladimir.yu.kiselev@gmail.com"
 git config --global user.name "wikiselev"
 
