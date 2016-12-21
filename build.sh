@@ -2,7 +2,7 @@
 # see this issue: https://github.com/sciurius/chordpro/issues/1
 # here I use open access DejaVuSans.ttf
 chordpro --print-default-config > mycfg.json
-sed -i -- 's/"name" : "Times-Roman"/"file" : "DejaVuSans.ttf"/g' *
+sed -i -- 's/"name" : "Times-Roman"/"file" : "DejaVuSans.ttf"/g' mycfg.json
 
 mkdir pdf
 
@@ -11,6 +11,9 @@ do
     f=(${i//./ })
     chordpro --cfg mycfg.json --o pdf/$f.pdf cho/$f.cho
 done
+
+git config --global user.email "vladimir.yu.kiselev@gmail.com"
+git config --global user.name "wikiselev"
 
 git add pdf
 git commit -m "build chord pdfs"
