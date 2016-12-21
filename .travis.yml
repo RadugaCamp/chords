@@ -3,7 +3,7 @@ perl:
   - "5.22"
 sudo: false
 install:
-  - App::Music::ChordPro
+  - cpanm install App::Music::ChordPro
 before_script:
   - chmod +x ./build.sh
 script:
