@@ -11,3 +11,7 @@ do
     f=(${i//./ })
     chordpro --cfg mycfg.json --o pdf/$f.pdf cho/$f.cho
 done
+
+git add pdf
+git commit -m "build chord pdfs"
+git push origin
