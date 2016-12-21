@@ -22,6 +22,6 @@ rm -rf *
 cp -r ../pdf .
 cp ../mycfg.json .
 
-git add pdf
+git add *
 git commit -m "build chord pdfs"
 git push origin HEAD:gh-pages
