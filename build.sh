@@ -17,7 +17,7 @@ git config --global user.name "wikiselev"
 git clone -b gh-pages https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git chords
 
 cd chords
-rm -rf *
+git rm -rf *
 cp -r ../pdf .
 cp -r ../cho .
 cp ../mycfg.json .
