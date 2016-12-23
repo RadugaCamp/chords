@@ -199,11 +199,11 @@
 
 	"fonts" : {
 	    "title" : {
-		"name" : "Times-Bold",
+		"file" : "fonts/open-sans/OpenSans-Bold.ttf",
 		"size" : 14
 	    },
 	    "text" : {
-		"name" : "Times-Roman",
+		"file" : "fonts/open-sans/OpenSans-Regular.ttf",
 		"size" : 12
 	    },
 	    "chord" : {
@@ -219,7 +219,7 @@
 		"size" : 10
 	    },
 	    "toc" : {
-		"name" : "Times-Roman",
+		"file" : "fonts/open-sans/OpenSans-Regular.ttf",
 		"size" : 11
 	    },
 	},
