@@ -211,7 +211,7 @@
 		"size" : 10
 	    },
 	    "comment" : {
-		"name" : "Helvetica",
+		"file" : "fonts/open-sans/OpenSans-Italic.ttf",
 		"size" : 12
 	    },
 	    "tab" : {
