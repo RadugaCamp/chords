@@ -4,6 +4,7 @@
 chordpro --print-default-config > mycfg.json
 sed -i -- 's+"name" : "Times-Roman"+"file" : "fonts/open-sans/OpenSans-Regular.ttf"+g' mycfg.json
 sed -i -- 's+"name" : "Times-Bold"+"file" : "fonts/open-sans/OpenSans-Bold.ttf"+g' mycfg.json
+sed -i -- 's+"name" : "Helvetica"+"file" : "fonts/open-sans/OpenSans-Italic.ttf"+g' mycfg.json
 
 mkdir pdf
 
