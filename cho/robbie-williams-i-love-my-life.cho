@@ -1,5 +1,7 @@
 {title: Robbie Williams - Love My Life}
 
+{columns:2}
+
 {comment:Capo on the 3rd}
 
 T[Em]ether your s[D]oul to m[G]e
@@ -37,7 +39,7 @@ And s[C]ee it because it's tr[D]ue
 {comment:Chorus}
 I love my l[Am]ife
 
-{colb}
+{column_break}
 
 Find the[Em]
 Others[G]
